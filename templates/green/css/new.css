@@ -1,0 +1,55 @@
+.head{position:fixed;top:0px;z-index:110;width:100%}
+* html .head{position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop)+0);left:0px;width:100%}
+.w965{ width:1150px; margin:0px auto; padding:0px;}
+.clear{ clear:both; height:10px; line-height:10px; font-size:0; overflow:hidden;padding:0px; margin:0px;}
+.clear0{ clear:both; height:0px; line-height:0px; font-size:0; overflow:hidden;padding:0px; margin:0px;}
+.left{ float:left}
+.right{ float:right}
+.backff{ background:#fff; overflow:hidden}
+.more{ float:right; padding-right:10px; margin-top:11px;  }
+.tyul{ padding:10px; overflow:hidden}
+.tyul li{ padding-left:10px; background:url(../images/a_30.gif) 0 11px no-repeat; line-height:25px; height:25px;}
+.tybt{ height:29px; line-height:29px; background:url(../images/a_16.gif); padding-left:10px;}
+.tybt h3{ background:url(../images/a_21.gif) left center no-repeat; padding-left:10px; color:#424242; font-size:14px;}
+.tybt2{ height:29px; line-height:29px; background:url(../images/a_16.gif);}
+.tybt2 h3{ background:url(../images/a_37.gif); float:left; width:85px; color:#fff; text-align:center; font-size:14px;}
+
+.gd_news h3{ font-size:14px; color:#fff;background:url(../images/a_03.gif); margin-right:5px; float:left; width:85px; text-align:center}
+.gd_news { margin-top:10px; margin-bottom:10px; border:1px solid #D7D7D7; background:url(../images/a_05.gif); height:28px; line-height:28px;}
+.gd_news li{ float:left; width:235px; background:url(../images/a_07.gif) no-repeat right center; padding-left:25px;}
+.qxk{ width:310px; height:295px; overflow:hidden}
+.qxk .bt{ background:url(../images/a_16.gif);  height:29px; line-height:29px;}
+.qxk .bt h3{ color:#fff; font-size:14px; background:url(../images/a_13.gif); float:left; text-align:center; width:85px;}
+.qxk .pic{ height:65px; margin-top:10px; padding-left:10px; padding-right:10px; overflow:hidden}
+.qxk .pic img{ float:left; }
+.qxk .pic .tt{ float:right; width:205px; height:64px; border-bottom:1px dashed #CCCCCC}
+.qxk .pic .tt h4 a{ font-size:12px; color:#D40515}
+.qxk .pic .tt p{ padding-top:3px;}
+.sbtt{ width:822px; height:295px; overflow:hidden}
+.sbtt .tt{ float:right; width:450px; margin-top:10px; padding-right:10px;}
+.sbtt .tt h2{text-align:center}
+.sbtt .tt h2 a{ font-size:24px; font-family:ºÚÌå; color:#D40515; line-height:25px; }
+.TB-focus{ width:325px; height:240px;  position:relative; float:left; padding-left:10px; margin-top:10px;  overflow:hidden; }
+.TB-focus .hd { position:absolute; right:9px; bottom:10px; z-index:1; padding-left:2px; }
+.TB-focus .hd li { color:#f60; cursor:pointer; margin-left:3px; width:18px; height:18px; background:#fff; float:left; font-size:13px; line-height:18px; overflow:visible; text-align:center; opacity:.7; filter:alpha(opacity=70); border:1px solid #d8d8d8; margin-left:-1px; }
+.TB-focus .hd li.on { background:#f60; color:#fff; font-weight:bold; opacity:1; filter:alpha(opacity=100); z-index:2; position:relative; }
+.incon2{ width:310px;}
+.h295{ height:300px; overflow:hidden}
+.incon3{ width:822px;}
+.tydate{ float:right; color:#9E9E9E}
+.tywidth{ width:402px; overflow:hidden}
+.tywidth .pic{ height:65px; margin-top:10px; padding-left:10px; padding-right:10px; overflow:hidden}
+.tywidth .pic img{ float:left; }
+.tywidth .pic .tt{ float:right; margin:0; padding:0; width:300px; height:64px; border-bottom:1px dashed #CCCCCC}
+.tywidth .pic .tt h4 a{ font-size:12px; color:#D40515}
+.tywidth .pic .tt p{ padding-top:3px;}
+
+
+
+
+
+
+
+
+
+

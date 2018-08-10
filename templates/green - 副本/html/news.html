@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<title>[news:title]-{aspcms:sortname}-{aspcms:sitetitle}</title>
+<meta name="Keywords" content="[news:keyword]" >
+<meta name="Description" content="[news:desc]" >
+<link rel="stylesheet" type="text/css" href="http://www.moke8.com/data/cache/style_12_common.css?t7v" />
+<link rel="stylesheet" type="text/css" href="http://www.moke8.com/data/cache/style_12_forum_viewthread.css?t7v" />
+{aspcms:top}
+<div class="moke-main">
+  <div id="wp" class="wp banner">
+    <div class="a_mu"><img src="http://www.moke8.com/moke8/banner/topbanner.png" border="0"></div>
+  </div>
+  <div id="wp" class="wp">
+    <div id="ct" class="wp cl">
+      <div class="ctl" style="padding-top:25px;">
+        <div id="postlist" class="pl">
+          <div id="post_53979">
+            <table id="pid53979" summary="pid53979" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <td id="plc_53979" class="plc" style="padding-left:20px;padding-right:20px;"><!--新闻列表开始-->
+                    
+                    <table width="700">
+                      <tr>
+                        <td>您现在的位置：<a href="{aspcms:sitepath}{aspcms:languagepath}">首页</a>{aspcms:position} > [position:link]{/aspcms:position}</td>
+                      </tr>
+                      <tr>
+                        <td align="center"><h1>[news:title]</h1>
+                          <h6>作者：[news:author]    发布于：[news:date]  点击量：[news:visits]</h6></td>
+                      </tr>
+                      <tr>
+                        <td>[news:info]
+                          <div style="clear: both;margin-top: 2px;padding: 10px;background:#FFFFE5;border: 1px solid #FFCC7F;">
+                            <dl style="margin-bottom: 10px;padding-bottom: 10px;border-bottom: 1px solid #FFE8CA;">
+                              <dd>
+                                <p><font color="red"><strong>※亲爱的朋友，如果你觉得此条信息帮助了你，那么也希望你能去帮助更多需要帮助的人，你只需要通过下方的分享给其它人就可以了。</strong></font></p>
+                                <br>
+                                <p><!-- Baidu Button BEGIN -->
+                                
+                                <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"> <span class="bds_more">分享到：</span> <a class="bds_qzone"></a> <a class="bds_tsina"></a> <a class="bds_tqq"></a> <a class="bds_renren"></a> <a class="bds_t163"></a> <a class="shareCount"></a> </div>
+                                <script type="text/javascript" id="bdshare_js" data="type=tools&uid=6749596" ></script> 
+                                <script type="text/javascript" id="bdshell_js"></script> 
+                                <script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script> 
+                                <!-- Baidu Button END --> 
+                                <br>
+                                </p>
+                              </dd>
+                            </dl>
+                            <dl class="tb-exemption">
+                              <dt><strong>慎重声明：</strong></dt>
+                              <dd><a href="http://www.aspku.com/">源码库</a>所发布文章，仅供个人参考。如需转载，请加入转载地址！</dd>
+                            </dl>
+                          </div></td>
+                      </tr>
+                      <tr>
+                        <td><ul class="aboutart">
+                            {aspcms:content sort={aspcms:sortid} num=5 order=order tag=aspcms}
+                            <li>·<a href="[content:link]">[content:title len=40]</a></li>
+                            {/aspcms:content}
+                          </ul>
+                          <hr>
+                          <p><strong>上一篇：</strong>{aspcms:prev}</p>
+                          <p><strong>下一篇：</strong>{aspcms:next}</p></td>
+                      </tr>
+                    </table>
+                    
+                    <!--新闻列表结束--></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      {aspcms:template src=newsleft.html}</div>
+  </div>
+</div>
+{aspcms:foot}
+</body></html>

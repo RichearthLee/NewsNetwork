@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<title>{aspcms:sitetitle}{aspcms:additiontitle}</title>
+<meta name="Keywords" content="{aspcms:sitekeywords}" >
+<meta name="Description" content="{aspcms:sitedesc}" >
+{aspcms:top}
+    <div class="moke-main">
+    <div id="wp" class="wp banner">
+        </div>
+<div id="wp" class="wp"> 
+<div class="moke8_area cl">
+<div class="moketitle">
+
+<span class="indexTitleT f20 yh c666">栏目类型分类：</span><br>
+
+            {aspcms:navlist type=5}
+			    <a href="[navlist:link]">[navlist:name]</a> | 
+            {/aspcms:navlist}
+</div>
+<div class="moketitle">
+
+<span class="indexTitleT f20 yh c666">{aspcms:sorttitle}</span>
+<div class="itmore"><span class="c999 f12">您现在的位置：<a href="{aspcms:sitepath}{aspcms:languagepath}">首页</a>{aspcms:position} > [position:link]{/aspcms:position}</span>
+</div>
+
+</div>
+<div class="main_wrap cl mt20 pb20ie7">
+                        {aspcms:list size=20 order=order}
+<div class="col_four">
+		<div class="projects">	
+			<div class="projects-thumbnail">	
+                <a href="[list:link]" target="_blank">
+				<img src="[list:pic]" width="258" height="180" alt="[list:title len=10]">
+				<span class="project-thumbnail-overlay"></span>
+				<p class="project-to-detail">+</p>
+                </a>
+			</div>
+			<div class="project-desc">
+				<p><span class="vip">VIP</span> <a href="[list:link]" target="_blank">[list:title len=11]</a></p>
+			</div>
+				<div class="project-tax">ASPKU源码网 分享在 <a href="[list:link]" title="[list:title len=10]" target="_blank">{aspcms:sorttitle}</a></div>
+		</div>
+	</div>
+                        {/aspcms:list} 
+	</div>
+	<div id="pgt" class="bm bw0 pgs cl">
+
+<span id="fd_page_top"><div class="pg">[list:pagenumber len=5]</div></span>
+</div>
+</div>
+	</div>
+    </div>
+	{aspcms:foot}
+</body></html>
